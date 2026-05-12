@@ -104,8 +104,8 @@ export default function FernandaTorcida() {
         </div>
 
         {/* Atmospheric orbs */}
-        <div style={{ position: "absolute", top: "12%", right: "8%", width: 280, height: 280, background: `radial-gradient(circle, ${C.gradientMint}35 0%, transparent 70%)`, zIndex: 2, pointerEvents: "none", animation: "orbFloat1 12s ease-in-out infinite" }} />
-        <div style={{ position: "absolute", top: "35%", left: "4%", width: 200, height: 200, background: `radial-gradient(circle, ${C.gradientLavender}30 0%, transparent 70%)`, zIndex: 2, pointerEvents: "none", animation: "orbFloat2 16s ease-in-out infinite" }} />
+        <div style={{ position: "absolute", top: "12%", right: "8%", width: 320, height: 320, background: `radial-gradient(circle, ${C.gradientMint}70 0%, transparent 70%)`, zIndex: 2, pointerEvents: "none", animation: "orbFloat1 8s ease-in-out infinite" }} />
+        <div style={{ position: "absolute", top: "35%", left: "4%", width: 240, height: 240, background: `radial-gradient(circle, ${C.gradientLavender}65 0%, transparent 70%)`, zIndex: 2, pointerEvents: "none", animation: "orbFloat2 10s ease-in-out infinite" }} />
 
         <div style={{ position: "relative", zIndex: 3, padding: "0 20px 52px", width: "100%" }}>
           <h1 style={{
@@ -353,17 +353,15 @@ const CSS = `
   ::selection { background: #a7e5d340; }
 
   @keyframes orbFloat1 {
-    0%   { transform: translate(0px, 0px) scale(1); }
-    33%  { transform: translate(18px, -24px) scale(1.06); }
-    66%  { transform: translate(-12px, 16px) scale(0.96); }
-    100% { transform: translate(0px, 0px) scale(1); }
+    0%   { transform: translate(0px, 0px); }
+    50%  { transform: translate(-55vw, 25vh); }
+    100% { transform: translate(0px, 0px); }
   }
 
   @keyframes orbFloat2 {
-    0%   { transform: translate(0px, 0px) scale(1); }
-    33%  { transform: translate(-20px, 18px) scale(1.08); }
-    66%  { transform: translate(14px, -14px) scale(0.94); }
-    100% { transform: translate(0px, 0px) scale(1); }
+    0%   { transform: translate(0px, 0px); }
+    50%  { transform: translate(55vw, -25vh); }
+    100% { transform: translate(0px, 0px); }
   }
 
   @keyframes scrollPulse {
