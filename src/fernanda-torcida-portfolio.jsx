@@ -123,10 +123,10 @@ export default function FernandaTorcida() {
             letterSpacing: "0.96px", textTransform: "uppercase",
             color: C.muted, marginTop: 16, marginBottom: 0,
           }}>
-            Curator · Art Consultant · Cultural Strategist
+            Cultural Strategist<br /><br />Art Consultant<br /><br />Curator
           </div>
 
-          <div style={{ marginTop: 12 }}>
+          <div style={{ marginTop: 32 }}>
             <span style={{ fontFamily: FONT.body, fontSize: 14, letterSpacing: "0.15px", color: C.muted }}>Miami, FL — Madrid, ESP</span>
           </div>
         </div>
