@@ -175,7 +175,7 @@ export default function FernandaTorcida() {
               <div style={{ display: "grid", gridTemplateColumns: "36px 1fr", gap: "0 16px", padding: "24px 0" }}>
                 <span style={{ fontFamily: FONT.body, fontSize: 13, fontWeight: 600, color: C.muted, letterSpacing: "0.1em", paddingTop: 3 }}>{n}</span>
                 <div>
-                  <div style={{ fontFamily: FONT.display, fontSize: "clamp(20px, 5vw, 24px)", fontStyle: "italic", fontWeight: 300, marginBottom: 10, letterSpacing: "-0.01em", color: C.ink }}>
+                  <div style={{ fontFamily: FONT.display, fontSize: "clamp(20px, 5vw, 24px)", fontStyle: "normal", fontWeight: 300, marginBottom: 10, letterSpacing: "-0.01em", color: C.ink }}>
                     {title}
                   </div>
                   <p style={{ fontFamily: FONT.body, fontSize: 16, lineHeight: 1.65, letterSpacing: "0.15px", color: C.body, margin: 0 }}>
@@ -224,7 +224,7 @@ export default function FernandaTorcida() {
                 borderBottom: i < arr.length - 1 ? `1px solid ${C.hairline}` : "none",
                 display: "flex", justifyContent: "space-between", alignItems: "center",
               }}>
-                <span style={{ fontFamily: FONT.display, fontSize: "clamp(17px, 4.5vw, 21px)", fontStyle: "italic", fontWeight: 300 }}>
+                <span style={{ fontFamily: FONT.display, fontSize: "clamp(17px, 4.5vw, 21px)", fontStyle: "normal", fontWeight: 300 }}>
                   {name}
                 </span>
                 <span style={{ fontFamily: FONT.body, fontSize: 13, fontWeight: 600, letterSpacing: "0.4em", textTransform: "uppercase", color: C.mutedSoft, flexShrink: 0, marginLeft: 12 }}>
