@@ -297,7 +297,6 @@ export default function FernandaTorcida() {
           </div>
 
           <div style={{ marginTop: 96, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
-            <span style={{ fontFamily: FONT.display, fontSize: 20, fontWeight: 300, color: C.ink }}>F T</span>
             <span style={{ fontFamily: FONT.body, fontSize: 13, fontWeight: 600, letterSpacing: "0.96px", textTransform: "uppercase", color: C.muted }}>
               Miami · Madrid · 2026
             </span>
