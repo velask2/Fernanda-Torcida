@@ -73,17 +73,6 @@ export default function FernandaTorcida() {
           fontFamily: FONT.display, fontSize: 18, fontWeight: 300,
           letterSpacing: "-0.02em", color: C.ink,
         }}>F T</span>
-
-        <a href={WA_URL} target="_blank" rel="noopener noreferrer" style={{
-          fontFamily: FONT.body, fontSize: 15, fontWeight: 500,
-          textDecoration: "none",
-          background: scrolled ? C.ink : "transparent",
-          color: scrolled ? "#ffffff" : C.ink,
-          border: scrolled ? "none" : `1px solid ${C.hairlineStrong}`,
-          borderRadius: 9999, padding: "9px 20px", height: 40,
-          display: "inline-flex", alignItems: "center",
-          transition: "all 0.35s",
-        }}>Get in touch</a>
       </nav>
 
       {/* ── HERO ── */}
